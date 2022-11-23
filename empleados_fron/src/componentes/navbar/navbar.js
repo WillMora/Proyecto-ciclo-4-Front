@@ -8,7 +8,7 @@ import './navbar.css';
 export default class Menu extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {}
+        this.state = {};
     }
     render() {
         return (
@@ -23,7 +23,7 @@ export default class Menu extends React.Component {
                             {/*<Nav.Link href="#home">Home</Nav.Link>
                             <Nav.Link href="#link">Link</Nav.Link>*/}
                          </Nav>
-                        <DropdownButton  title="Opciones"> 
+                        <DropdownButton variant="info"  title="Opciones"> 
                              {/*Se agrega el Dropdown.header para añadir un nombre de usuario
                             y una fotografia*/}
                             <Dropdown.Header id="dropdown-header" >
