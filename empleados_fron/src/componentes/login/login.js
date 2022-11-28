@@ -40,7 +40,8 @@ export default class login extends React.Component {
                     expires: calculateExpiracionSesion(),
                 });
 
-                this.props.history.push('/home');
+                this.props.history.push(window.open('/empleados'));
+                //this.props.history.push('/home');
                 
             }
 
